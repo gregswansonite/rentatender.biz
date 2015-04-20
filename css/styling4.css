@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+#banner{
+	border-top:4px solid #000;
+	border-bottom:4px solid #000;
+	width:800px;
+}
+body {
+	background-color: #000;
+	margin: 0px;
+	background-repeat: repeat-x -y;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/blackwood.jpg);
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 16px;
+}
+
+#navList a:hover{
+	 box-shadow: 0px 5px 5px #888888;
+	 background: #444;
+}
+#navList .active{
+	box-shadow: 0px 5px 5px #888888;
+	background: #444;
+}
+#navList a{
+	color:#FF3333;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding: 12px 6px;
+	background: #777;
+	border-radius: 3px;
+}
+#navList li{
+	list-style-type: none;
+	display: inline;
+}
+#bannerText{
+	position:relative;
+	top:-16px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#footerImg{
+
+	text-align: center;
+}
+#wrapper{
+	background-color: #FF3333;
+	width: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	height: 85px;
+	margin-left: 20px;
+	display: inline;
+	
+}
+#headerimage{
+	margin-top:8px;
+}
+#nav{
+	float: right;
+	margin-top: 36px;
+	margin-right: 90px;
+}
+.mainContent{
+	border-left:4px solid #000;
+	float:right;
+	width:530px;
+	margin-top: 0px;
+	padding: 0px 15px;
+	margin-left:10px;
+}
+#indexmaincontent{	
+	height:720px;
+}
+#servicesmaincontent{
+	height:1345px;
+}
+#contactmaincontent{	
+	height:1030px;
+}
+#faqmaincontent{
+	height:1070px;
+}
+#leftpanel{
+	padding: 0px 15px;
+    height: 400px;
+    width: 270px;	
+}
+#footer{
+	border-top:4px solid #000;
+	clear:both;	
+	height:100px;
+	text-align:center;
+}
+#copyright{
+	font-size:small;	
+}
+.hrStandard{
+	width:200px;
+	height: 1px;
+	color: #000000;
+	background-color: #000000;
+	border: none;
+}
+#testimonials{
+	font-size: 13px;
+	position: relative;
+	top:-10px;
+}
+#recentEvents{
+	position: relative;
+	top:-10px;
+	width: 200px;
+}
+#bookNow{
+	position: relative;
+	top:-10px;
+	width: 200px;
+}
+.hrDotted{
+	width: 125px;
+    border: 0;
+    border-bottom: 1px dashed #000;
+    
+    margin-bottom: 15px;
+}
+#mediaBar{
+	position:relative;
+	top:3px;
+	width:135px;
+}
+#imageScroller{
+	text-align: center;
+	height:130px;
+	width:200px;
+}
+#scrollImage{
+	margin-top: 5px;
+	width:200px;
+	border-radius:3px;
+}
+h4{
+	padding: 0px 0px;
+}
+#frontPageImage{
+	text-align: center;
+}
+#upperContact{
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	top:-30px;
+	left:+125px;
+}
+#navList{
+	display:inline;
+	position: relative;
+	top:-10px;
+	left:+50px;
+}

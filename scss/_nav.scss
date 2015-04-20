@@ -1,0 +1,33 @@
+#nav{
+	float: right;
+	margin-top: 36px;
+	margin-right: 90px;
+}
+#navList{
+	display:inline;
+	position: relative;
+	top:-10px;
+	left:+50px;
+}
+#navList a:hover{
+	 box-shadow: 0px 5px 5px #888888;
+	 background: #00162B;
+}
+#navList .active{
+	box-shadow: 0px 5px 5px #888888;
+	background: #00162B;
+}
+#navList a{
+	color:$primary-color;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding: 12px 6px;
+	background: #003366;
+	border-radius: 3px;
+}
+#navList li{
+	list-style-type: none;
+	display: inline;
+}

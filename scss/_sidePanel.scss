@@ -1,0 +1,64 @@
+#bookNow{
+	position: relative;
+	top:-10px;
+	width: 200px;
+}
+.hrDotted{
+	width: 125px;
+    border: 0;
+    border-bottom: 1px dashed #000;
+    
+    margin-bottom: 15px;
+}
+.hrStandard{
+	width:200px;
+	height: 1px;
+	color: #000000;
+	background-color: #000000;
+	border: none;
+}
+#imageScroller{
+	text-align: center;
+	height:130px;
+	width:200px;
+}
+#scrollImage{
+	margin-top: 5px;
+	width:200px;
+	border-radius:3px;
+}
+.leftpanel h4{
+	width: 187px;
+	padding: 3px 5px;
+	color: black;
+	border:2px solid $border-color;
+	background-color: $primary-color;
+}
+.leftpanel{
+	border-top:4px solid $border-color;
+	background-color: $secondary-color;
+	padding: 0px 15px;
+}
+#indexLeftPanel{
+	height:$index-page-height;
+}
+#servicesLeftPanel{
+	height:$services-page-height;
+}
+#contactLeftPanel{
+	height:$contact-page-height;
+}
+#faqLeftPanel{
+	height:$faq-page-height;
+}
+#recentEvents{
+	position: relative;
+	top:-10px;
+	width: 200px;
+}
+#testimonials{
+	width:200px;
+	font-size: 13px;
+	position: relative;
+	top:-10px;
+}

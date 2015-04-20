@@ -1,0 +1,115 @@
+/*Bronco Theme*/
+/* heights for left panel and content divs */
+/* line 1, ../scss/_banner.scss */
+#banner { border-top: 4px solid #003366; width: 800px; }
+
+/* line 5, ../scss/_banner.scss */
+#bannerText { position: relative; top: -16px; font-size: 18px; font-weight: bold; }
+
+/* line 11, ../scss/_banner.scss */
+#header { height: 200px; margin-left: 20px; display: inline; }
+
+/* line 17, ../scss/_banner.scss */
+#headerimage { margin-top: 8px; }
+
+/* line 20, ../scss/_banner.scss */
+#upperContact { font-weight: bold; font-size: 14px; position: relative; top: -30px; left: 125px; }
+
+/* line 1, ../scss/_nav.scss */
+#nav { float: right; margin-top: 36px; margin-right: 90px; }
+
+/* line 6, ../scss/_nav.scss */
+#navList { display: inline; position: relative; top: -10px; left: 50px; }
+
+/* line 12, ../scss/_nav.scss */
+#navList a:hover { box-shadow: 0px 5px 5px #888888; background: #00162B; }
+
+/* line 16, ../scss/_nav.scss */
+#navList .active { box-shadow: 0px 5px 5px #888888; background: #00162B; }
+
+/* line 20, ../scss/_nav.scss */
+#navList a { color: #ff9900; text-decoration: none; font-size: 20px; margin-left: 3px; margin-right: 3px; padding: 12px 6px; background: #003366; border-radius: 3px; }
+
+/* line 30, ../scss/_nav.scss */
+#navList li { list-style-type: none; display: inline; }
+
+/* line 1, ../scss/_sidePanel.scss */
+#bookNow { position: relative; top: -10px; width: 200px; }
+
+/* line 6, ../scss/_sidePanel.scss */
+.hrDotted { width: 125px; border: 0; border-bottom: 1px dashed #000; margin-bottom: 15px; }
+
+/* line 13, ../scss/_sidePanel.scss */
+.hrStandard { width: 200px; height: 1px; color: #000000; background-color: #000000; border: none; }
+
+/* line 20, ../scss/_sidePanel.scss */
+#imageScroller { text-align: center; height: 130px; width: 200px; }
+
+/* line 25, ../scss/_sidePanel.scss */
+#scrollImage { margin-top: 5px; width: 200px; border-radius: 3px; }
+
+/* line 30, ../scss/_sidePanel.scss */
+.leftpanel h4 { width: 187px; padding: 3px 5px; color: black; border: 2px solid #003366; background-color: #ff9900; }
+
+/* line 37, ../scss/_sidePanel.scss */
+.leftpanel { border-top: 4px solid #003366; background-color: #fffbd0; padding: 0px 15px; }
+
+/* line 42, ../scss/_sidePanel.scss */
+#indexLeftPanel { height: 720px; }
+
+/* line 45, ../scss/_sidePanel.scss */
+#servicesLeftPanel { height: 1290px; }
+
+/* line 48, ../scss/_sidePanel.scss */
+#contactLeftPanel { height: 1045px; }
+
+/* line 51, ../scss/_sidePanel.scss */
+#faqLeftPanel { height: 1160px; }
+
+/* line 54, ../scss/_sidePanel.scss */
+#recentEvents { position: relative; top: -10px; width: 200px; }
+
+/* line 59, ../scss/_sidePanel.scss */
+#testimonials { width: 200px; font-size: 13px; position: relative; top: -10px; }
+
+/* line 1, ../scss/_body.scss */
+body { background-color: #000; margin: 0px; background-repeat: repeat-x -y; margin-left: auto; margin-right: auto; background-image: url(../images/blackwood.jpg); font-family: 'Ubuntu Condensed', sans-serif; font-size: 15px; }
+
+/* line 11, ../scss/_body.scss */
+#frontPageImage { text-align: center; }
+
+/* line 14, ../scss/_body.scss */
+h4 { padding: 0px 0px; }
+
+/* line 17, ../scss/_body.scss */
+.mainContent h4, .mainContent h3 { padding: 3px 5px; color: black; border: 2px solid #003366; background-color: #ff9900; }
+
+/* line 23, ../scss/_body.scss */
+.mainContent { border-top: 4px solid #003366; background-color: #fffbd0; border-left: 4px solid #003366; float: right; width: 530px; margin-top: 0px; padding: 0px 15px; margin-left: 10px; }
+
+/* line 33, ../scss/_body.scss */
+#indexmaincontent { height: 720px; }
+
+/* line 36, ../scss/_body.scss */
+#contactmaincontent { height: 1045px; }
+
+/* line 39, ../scss/_body.scss */
+#faqmaincontent { height: 1160px; }
+
+/* line 42, ../scss/_body.scss */
+#servicesmaincontent { height: 1290px; }
+
+/* line 45, ../scss/_body.scss */
+#wrapper { background-color: #ff9900; width: 800px; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
+
+/* line 1, ../scss/_footer.scss */
+#copyright { font-size: small; }
+
+/* line 4, ../scss/_footer.scss */
+#footer { border-top: 4px solid #003366; clear: both; height: 100px; text-align: center; }
+
+/* line 10, ../scss/_footer.scss */
+#footerImg { text-align: center; }
+
+/* line 14, ../scss/_footer.scss */
+#mediaBar { position: relative; top: 3px; width: 135px; }

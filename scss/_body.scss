@@ -1,0 +1,52 @@
+body {
+	background-color: #000;
+	margin: 0px;
+	background-repeat: repeat-x -y;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/blackwood.jpg);
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 15px;
+}
+#frontPageImage{
+	text-align: center;
+}
+h4{
+	padding: 0px 0px;
+}
+.mainContent h4, .mainContent h3{
+	padding: 3px 5px;
+	color: black;
+	border:2px solid $border-color;
+	background-color: $primary-color;
+}
+.mainContent{
+	border-top: 4px solid $border-color;
+	background-color: $secondary-color;
+	border-left:4px solid $border-color;
+	float:right;
+	width:530px;
+	margin-top: 0px;
+	padding: 0px 15px;
+	margin-left:10px;
+}
+#indexmaincontent{	
+	height:$index-page-height;
+}
+#contactmaincontent{	
+	height:$contact-page-height;
+}
+#faqmaincontent{
+	height:$faq-page-height;
+}
+#servicesmaincontent{
+	height:$services-page-height;
+}
+#wrapper{
+	background-color: $primary-color;
+	width: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
